@@ -5,7 +5,7 @@ H_PATH = -I.
 ODIR = ofiles
 SUCCESS = $(GREEN)✔$(RESET)
 SRCS = main.cpp \
-	   exception.cpp
+	   Array.cpp
 OBJS = $(patsubst %.cpp,$(ODIR)/%.o,$(SRCS))
 DEPS = Array.hpp \
 	   Array.tpp
